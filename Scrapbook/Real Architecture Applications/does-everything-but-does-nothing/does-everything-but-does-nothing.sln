@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "does-everything-but-does-nothing", "does-everything-but-does-nothing\does-everything-but-does-nothing.csproj", "{55341895-F7CD-416D-BE50-B4FF4F1E4B1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55341895-F7CD-416D-BE50-B4FF4F1E4B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55341895-F7CD-416D-BE50-B4FF4F1E4B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55341895-F7CD-416D-BE50-B4FF4F1E4B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55341895-F7CD-416D-BE50-B4FF4F1E4B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {725D6E0C-E1D6-4955-9AC9-481779FD073C}
+	EndGlobalSection
+EndGlobal
