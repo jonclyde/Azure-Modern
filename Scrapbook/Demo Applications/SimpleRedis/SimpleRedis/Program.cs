@@ -5,7 +5,7 @@ namespace SimpleRedis
 {
 	class Program
 	{
-		private static string CacheConnection = "";
+		private static string CacheConnection = "rcapp12.redis.cache.windows.net:6380,password=J+ohhZSqvWdg2PXSN6zwJTndcRSLS+bhsHvKd7fUgkw=,ssl=True,abortConnect=False";
 		static void Main(string[] args)
 		{
 			IDatabase cache = lazyConnection.Value.GetDatabase();
