@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+  shoppingapi:
+    image: ${DOCKER_REGISTRY-}shoppingapi
+    build:
+      context: .
+      dockerfile: ShoppingApi/Dockerfile
+
+  shoppingapp:
+    image: ${DOCKER_REGISTRY-}shoppingapp
+    build:
+      context: .
+      dockerfile: ShoppingApp/Dockerfile
+
+  shoppingdb:
+    image: mongo
+
