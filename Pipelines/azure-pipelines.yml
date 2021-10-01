@@ -10,7 +10,7 @@ jobs:
     displayName: 'Placeholder step'
   - task: AzureCLI@2
     inputs:
-      azureSubscription: 'MyServiceConnection'
+      azureSubscription: '$(serviceConnection)'
       scriptType: 'bash'
       scriptLocation: 'inlineScript'
       inlineScript: |
