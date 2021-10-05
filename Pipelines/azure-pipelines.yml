@@ -8,3 +8,12 @@ jobs:
   steps:
   - script: echo Hello world!
     displayName: 'Placeholder step'
+  - task: AzureCLI@2
+    inputs:
+      azureSubscription: '$(serviceConnection)'
+      scriptType: 'bash'
+      scriptLocation: 'inlineScript'
+      inlineScript: |
+        az deployment group create \
+          --resource-group Example \
+          --template-file bicep/main.bicep
